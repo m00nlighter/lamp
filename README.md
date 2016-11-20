@@ -11,11 +11,13 @@
   - lamp del доменное имя   -> Удаляет хост
 
 Установка:
-  - wget --no-check-certificate -O lamp.zip https://github.com/m00nlighter/lamp/archive/master.zip
-  - unzip lamp.zip
-  - cd lamp-master
-  - chmod +x *.sh
-  - ./install.sh
-  - cd ..
-  - rm -R lamp-master
-  - lamp
+```sh
+wget --no-check-certificate -O lamp.zip https://github.com/m00nlighter/lamp/archive/master.zip
+unzip lamp.zip
+cd lamp-master
+chmod +x *.sh
+./install.sh
+cd ..
+rm -R lamp-master
+lamp
+```
